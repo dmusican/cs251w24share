@@ -3,4 +3,4 @@
   (lambda (lst)
     (if (null? lst)
 	0
-	(+ 1 (list-length (cdr lst))))))
+	(+ 1 list-length (cdr lst))))))
