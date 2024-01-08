@@ -9,5 +9,8 @@
 ;;; (remove-first 2 '(9 2 3 2 5)) ---> (9 3 2 5)
 (define remove-first
   (lambda (item lst)
-    (if (null? lst)
-	lst
+    (cond ( (null? lst) lst )
+	  ( (equal? item (car lst))  (cdr lst))
+	  ( else
+	    (cons (car lst)
+		  (remove-first item (cdr lst)))))))
