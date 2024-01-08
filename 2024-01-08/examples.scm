@@ -11,6 +11,6 @@
   (lambda (item lst)
     (cond ( (null? lst) lst )
 	  ( (equal? item (car lst))  (cdr lst))
-	  ( else
+	  ( #t
 	    (cons (car lst)
 		  (remove-first item (cdr lst)))))))
