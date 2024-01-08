@@ -14,3 +14,24 @@
 	  ( else
 	    (cons (car lst)
 		  (remove-first item (cdr lst)))))))
+
+;;; (subst 'b 'a '((b c) (b () d))) ---> ((a c) (a () d))
+;;; (subst 'b 'a 'b)    ---> a
+(define subst
+  (lambda (old new input)
+    (cond ((null? input) input)
+	  ((list? input) ___________)
+	  ((equal? old input) new)
+	  (else     _________________))))
+
+
+
+
+
+
+
+
+
+
+
+
