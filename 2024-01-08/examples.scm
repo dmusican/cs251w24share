@@ -20,9 +20,14 @@
 (define subst
   (lambda (old new input)
     (cond ((null? input) input)
-	  ((list? input) ___________)
-	  ((equal? old input) new)
-	  (else     _________________))))
+	  ((list? input)
+
+	   (cons
+	    (subst old new (car input))
+	    (subst old new (cdr input)))
+
+	  ((equal? old input) new)    ;;; not a list, and old
+	  (else input))))))  ;;; not a list, not old
 
 
 
