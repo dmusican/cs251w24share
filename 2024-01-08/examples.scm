@@ -27,7 +27,7 @@
 	    (subst old new (cdr input))))
 	  
 	  ((equal? old input) new)    ;;; not a list, and old
-	  (else input)))))  ;;; not a list, not old
+	  (else input))))  ;;; not a list, not old
 
 
 
