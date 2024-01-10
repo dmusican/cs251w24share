@@ -17,3 +17,14 @@
 (use-modules ((rnrs)
               #:select (fold-left fold-right)))
 (fold-left + 81 '(1 2))
+
+;;; total lengths of all sublists
+(define lists '((the fox jumped)
+                (the cow mooed)
+                (birds)
+                (happy cheetahs)))
+(define total-length
+  (lambda (documents)
+     (fold-left + 0 (map length documents))))
+
+(total-length lists)
