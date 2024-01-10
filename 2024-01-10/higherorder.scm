@@ -3,3 +3,5 @@
 (define addOne
   (lambda (x)
     (+ x 1)))
+
+(map addOne '(1 2 3 4 5))
