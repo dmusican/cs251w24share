@@ -28,3 +28,18 @@
      (fold-left + 0 (map length documents))))
 
 (total-length lists)
+
+;;; count number of times a word appears in a list
+(define text '(the quick brown fox ate a fox squirrel quick quick))
+
+(define count-word
+  (lambda (target words)
+         (map (lambda (word)
+                (if (equal? target word)
+                    1
+                    0
+                    ))
+              words)
+
+
+(count-word 'fox text)
