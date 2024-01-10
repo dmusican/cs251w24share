@@ -41,7 +41,7 @@
                           1
                           0
                           ))
-                    words)))
+                    words))))
 
 
 (count-word 'fox text)
