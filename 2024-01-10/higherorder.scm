@@ -16,3 +16,4 @@
 
 (use-modules ((rnrs)
               #:select (fold-left fold-right)))
+(fold-left + 81 '(1 2))
