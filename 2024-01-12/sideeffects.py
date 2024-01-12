@@ -1,5 +1,10 @@
-count = 0
+def remove_first_good(lst):
+    result = lst[:len(lst)-1]
+    return result
 
+
+
+# With side effects (sometimes considered bad)
 def remove_first(lst):
     lst.pop()
 
