@@ -3,7 +3,7 @@
     (if (> start stop)
         '()
         (cons start
-            (lambda ()
-              (gen-lazy-list
-               (+ start 1)
-               stop))))))
+              (lambda ()
+                (gen-lazy-list
+                 (+ start 1)
+                 stop))))))
