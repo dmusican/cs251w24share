@@ -4,6 +4,4 @@
         '()
         (cons start
               (lambda ()
-                (gen-lazy-list
-                 (+ start 1)
-                 stop))))))
+                (gen-lazy-list (+ start 1) stop))))))
