@@ -12,3 +12,9 @@ items = [5, 6, 7]
 print(items)
 remove_first(items)
 print(items)
+
+others = [1, 2, 3]
+print(others)
+answer = remove_first_good(others)
+print(others)
+print(answer)
