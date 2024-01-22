@@ -1,4 +1,5 @@
 #include "linkedlist.h"
+#include <stdlib.h>
 
 LinkedList *insertFrontLL(LinkedList *list, int item) {
     LinkedList *cell = malloc(sizeof(LinkedList));
