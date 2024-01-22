@@ -40,6 +40,10 @@ int main() {
         printf("c[%i] = %i\n", i, c[i]);
     }
 
+    // Technical detail, proof that they're not typed the same
+    int *d;
+    d = c;
+
 
 
 
