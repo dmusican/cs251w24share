@@ -36,6 +36,9 @@ int main() {
         c[i] = i;
     }
 
+    for (int i=0; i < 3; i++) {
+        printf("c[%i] = %i\n", i, c[i]);
+    }
 
 
 
