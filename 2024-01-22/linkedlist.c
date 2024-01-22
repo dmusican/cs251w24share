@@ -1,3 +1,5 @@
+#include "linkedlist.h"
+
 LinkedList *insertFrontLL(LinkedList *list, int item) {
     LinkedList *cell = malloc(sizeof(LinkedList));
     (*cell).value = item;
