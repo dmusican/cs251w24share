@@ -50,7 +50,7 @@ int main() {
         printf("d[%i] = %i\n", i, d[i]);
     }
 
-
+    free(c);
 
 
 
