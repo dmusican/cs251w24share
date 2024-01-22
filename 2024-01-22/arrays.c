@@ -11,4 +11,8 @@ int main() {
     for (int i=0; i < 3; i++) {
         printf("a[%i] = %i\n", i, a[i]);
     }
+
+    // Copy array?
+    int b[3];
+    b = a;
 }
