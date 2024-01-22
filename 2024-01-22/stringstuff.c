@@ -3,7 +3,9 @@
 #include <string.h>
 
 int main() {
-    printf("%s\n", "hello");
+    //printf("%s\n", "hello");
+    char *word = "hello"
+
 
 
 }
