@@ -14,7 +14,7 @@ int main() {
     dullword[2] = 'l';
     dullword[3] = 'l';
     dullword[4] = 'o';
-    dullword[5] = '\0';
+    /* dullword[5] = '\0'; */
 
     printf("%s\n", dullword);
     dullword[2] = 'q';
