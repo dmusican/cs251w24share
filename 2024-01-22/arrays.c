@@ -27,4 +27,19 @@ int main() {
     }
     // unreliable information
     printf("C says sizeof a is %lu\n", sizeof(a));
+
+    // Try in heap instead
+    int *c = malloc(sizeof(int)*3);
+
+
+
+
+
+
+
+
+
+
+
+
 }
