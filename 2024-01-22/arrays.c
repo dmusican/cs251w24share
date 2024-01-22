@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main() {
     // Make an array
@@ -12,7 +13,14 @@ int main() {
         printf("a[%i] = %i\n", i, a[i]);
     }
 
-    // Copy array?
     int b[3];
-    b = a;
+    // Copy array? No..
+    //  b = a; Error, bad
+
+    for (int i=0; i <; i++) {
+        b[i] = a[i];
+    }
+    // or.... (specify number of bytes to copy)
+    memcpy(b, a, sizeof(int)*3);
+
 }
