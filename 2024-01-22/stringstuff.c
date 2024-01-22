@@ -20,6 +20,11 @@ int main() {
     dullword[2] = 'q';
     printf("%s\n", dullword);
 
+    // much much better
+    char *goodword = malloc(sizeof(char)*6);
+    strcpy(goodword, "hello");
+    goodword[2] = 'w';
+    printf("%s\n", goodword);
 
 
 }
