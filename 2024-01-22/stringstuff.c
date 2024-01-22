@@ -4,8 +4,8 @@
 
 int main() {
     //printf("%s\n", "hello");
-    char *word = "hello";
-    word[0] = 'g';
+    /* char *word = "hello"; */
+    /* word[0] = 'g'; */
 
     // dull way to fix this problem
     char *dullword = malloc(sizeof(char)*6);
