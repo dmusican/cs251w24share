@@ -25,5 +25,6 @@ int main() {
     for (int i=0; i < 3; i++) {
         printf("b[%i] = %i\n", i, b[i]);
     }
+    // unreliable information
     printf("C says sizeof a is %lu\n", sizeof(a));
 }
