@@ -43,7 +43,12 @@ int main() {
     // Technical detail, proof that they're not typed the same
     int *d;
     d = c;
+    d[1] = 9;
 
+    for (int i=0; i < 3; i++) {
+        printf("c[%i] = %i\n", i, c[i]);
+        printf("d[%i] = %i\n", i, d[i]);
+    }
 
 
 
