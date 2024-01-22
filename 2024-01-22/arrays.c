@@ -25,4 +25,5 @@ int main() {
     for (int i=0; i < 3; i++) {
         printf("b[%i] = %i\n", i, b[i]);
     }
+    printf("C says sizeof a is %i\n", sizeof(a));
 }
