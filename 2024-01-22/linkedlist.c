@@ -1,6 +1,5 @@
-LinkedList *insertFrontLL(
-    LinkedList *list, int item) {
-
+LinkedList *insertFrontLL(LinkedList *list, int item) {
+    LinkedList *cell = malloc(sizeof(LinkedList));
 
 }
 
