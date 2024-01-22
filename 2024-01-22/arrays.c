@@ -51,6 +51,7 @@ int main() {
     }
 
     free(c);
+    free(d);
 
 
 
