@@ -31,6 +31,11 @@ int main() {
     // Try in heap instead
     int *c = malloc(sizeof(int)*3);
 
+    // Can think of pointers as interchangeable as arrays
+    for (int i=0; i < 3; i++) {
+        c[i] = i;
+    }
+
 
 
 
