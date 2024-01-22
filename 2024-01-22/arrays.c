@@ -17,10 +17,12 @@ int main() {
     // Copy array? No..
     //  b = a; Error, bad
 
-    for (int i=0; i <; i++) {
+    for (int i=0; i < 3; i++) {
         b[i] = a[i];
     }
     // or.... (specify number of bytes to copy)
     memcpy(b, a, sizeof(int)*3);
-
+    for (int i=0; i < 3; i++) {
+        printf("b[%i] = %i\n", i, b[i]);
+    }
 }
