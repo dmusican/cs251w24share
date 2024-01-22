@@ -3,5 +3,7 @@
 #include <string.h>
 
 int main() {
-    printf("%s\n", "hi friends");
+    printf("%s\n", "hello");
+
+
 }
