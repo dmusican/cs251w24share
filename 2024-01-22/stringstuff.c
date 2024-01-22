@@ -4,7 +4,8 @@
 
 int main() {
     //printf("%s\n", "hello");
-    char *word = "hello"
+    char *word = "hello";
+    word[0] = 'g';
 
 
 
