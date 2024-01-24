@@ -9,5 +9,8 @@ int main() {
   /* free(x); */
   /* free(x); */
 
-  free((int*)29413);
+  /* free((int*)29413); */
+
+  int *x = malloc(sizeof(int)*3);
+  x[10] = 42;
 }
