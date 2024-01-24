@@ -13,4 +13,5 @@ int main() {
 
   int *x = malloc(sizeof(int)*3);
   x[10] = 42;
+  printf("%i\n", x[10]);
 }
