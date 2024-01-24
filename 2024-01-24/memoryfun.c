@@ -12,6 +12,6 @@ int main() {
   /* free((int*)29413); */
 
   int *x = malloc(sizeof(int)*3);
-  x[10] = 42;
+  x[1000] = 42;
   printf("%i\n", x[1000]);
 }
