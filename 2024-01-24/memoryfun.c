@@ -5,7 +5,9 @@ int main() {
   /* int x; */
   /* printf("%i\n", x); */
 
-  int *x = malloc(sizeof(int));
-  free(x);
-  free(x);
+  /* int *x = malloc(sizeof(int)); */
+  /* free(x); */
+  /* free(x); */
+
+  free((int*)29413);
 }
