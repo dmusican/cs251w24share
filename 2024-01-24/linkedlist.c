@@ -9,6 +9,7 @@ LinkedList *insertFrontLL(LinkedList *list, int item) {
 
 }
 
+//void cleanupLL()
 
 int main() {
     LinkedList *list = NULL;
