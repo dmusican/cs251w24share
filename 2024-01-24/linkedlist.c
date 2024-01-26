@@ -13,8 +13,9 @@ void cleanupLL(LinkedList *list) {
     // bad
     LinkedList *current = list;
     while (current != NULL) {
+        LinkedList *following = current->next;
         free(current);
-        current = current->next;
+        current = following;
     }
 
 int main() {
