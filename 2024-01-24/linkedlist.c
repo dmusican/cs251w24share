@@ -9,7 +9,13 @@ LinkedList *insertFrontLL(LinkedList *list, int item) {
 
 }
 
-//void cleanupLL()
+void cleanupLL(LinkedList *list) {
+    // bad
+    LinkedList *current = list;
+    while (current != NULL) {
+        free(current);
+        current = current->next;
+    }
 
 int main() {
     LinkedList *list = NULL;
