@@ -5,4 +5,5 @@ def doit():
     print("In: ", x)
 
 
+doit()
 print("Out: ", x)
