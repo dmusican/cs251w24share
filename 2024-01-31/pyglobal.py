@@ -5,4 +5,4 @@ def doit():
     print("In: ", x)
 
 
-print("Out: " x)
+print("Out: ", x)
