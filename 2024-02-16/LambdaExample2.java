@@ -12,8 +12,9 @@ class AddingThing implements DoAThing {
 
 public class LambdaExample2 {
 
-    public static int evaluate(f, int x, int y) {
-        f(x,y);
+    public static int evaluate(DoAThing thing,
+                               int x, int y) {
+        return thing.f(x,y);
     }
 
     public static void main(String[] args) {
