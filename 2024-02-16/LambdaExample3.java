@@ -15,7 +15,7 @@ class MultiplyingThing implements DoAThing {
     }
 }
 
-public class LambdaExample2 {
+public class LambdaExample3 {
 
     public static int evaluate(DoAThing thing,
                                int x, int y) {
