@@ -25,5 +25,7 @@ public class LambdaExample2 {
     public static void main(String[] args) {
         System.out.println(evaluate(new AddingThing(),
                                     3, 5));
+        System.out.println(evaluate(new MultiplyingThing(),
+                                    3, 5));
     }
 }
