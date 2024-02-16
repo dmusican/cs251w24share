@@ -10,10 +10,9 @@ class AddingThing implements DoAThing {
 }
 
 
-
 public class LambdaExample2 {
 
-    public static void evaluate(f, int x, int y) {
+    public static int evaluate(f, int x, int y) {
         f(x,y);
     }
 
