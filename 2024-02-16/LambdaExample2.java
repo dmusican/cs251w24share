@@ -1,4 +1,16 @@
 // How passing functions as a parameter work in Java
+interface DoAThing {
+    int f(int x, int y);
+}
+
+class AddingThing {
+    public int f(int x, int y) {
+        return x + y;
+    }
+}
+
+
+
 public class LambdaExample2 {
 
     public static void evaluate(f, int x, int y) {
