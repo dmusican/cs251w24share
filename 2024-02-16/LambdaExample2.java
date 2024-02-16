@@ -3,7 +3,7 @@ interface DoAThing {
     int f(int x, int y);
 }
 
-class AddingThing {
+class AddingThing implements DoAThing {
     public int f(int x, int y) {
         return x + y;
     }
