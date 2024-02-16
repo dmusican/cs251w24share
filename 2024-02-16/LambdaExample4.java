@@ -16,7 +16,9 @@ public class LambdaExample3 {
                                        return x + y;
                                    }}, 3, 5));
 
-        System.out.println(evaluate(new MultiplyingThing(),
-                                    3, 5));
+        System.out.println(evaluate(new Function() {
+                                   public int f(int x, int y) {
+                                       return x * y;
+                                   }}, 3, 5));
     }
 }
