@@ -11,9 +11,10 @@ public class LambdaExample3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(
-           evaluate(new AddingThing(),
-                    3, 5));
+        System.out.println(evaluate(new DoAThing() {
+                                   public int f(int x, int y) {
+                                       return x + y;
+                                   }}, 3, 5));
 
         System.out.println(evaluate(new MultiplyingThing(),
                                     3, 5));
