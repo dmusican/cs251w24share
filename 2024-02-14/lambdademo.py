@@ -7,4 +7,3 @@ print(sorted(items,
 
 
 
-#             key=(lambda (lst) (car (cdr lst)))))
