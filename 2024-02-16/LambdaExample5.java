@@ -1,7 +1,7 @@
 // How passing functions as a parameter work in Java
-interface Function {
-    int f(int x, int y);
-}
+// interface Function {
+//     int f(int x, int y);
+// }
 
 public class LambdaExample5 {
 
@@ -11,8 +11,8 @@ public class LambdaExample5 {
     }
 
     public static void main(String[] args) {
-        Function add = (x,y) -> x + y;
-        System.out.println(evaluate(add, 3, 5));
+        // Function add = (x,y) -> x + y;
+        // System.out.println(evaluate(add, 3, 5));
 
         System.out.println(evaluate((x,y) -> x*y, 3, 5));
     }
