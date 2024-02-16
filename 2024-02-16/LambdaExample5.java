@@ -3,7 +3,7 @@ interface Function {
     int f(int x, int y);
 }
 
-public class LambdaExample4 {
+public class LambdaExample5 {
 
     public static int evaluate(Function thing,
                                int x, int y) {
