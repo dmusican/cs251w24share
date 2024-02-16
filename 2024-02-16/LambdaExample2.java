@@ -9,6 +9,11 @@ class AddingThing implements DoAThing {
     }
 }
 
+class MultiplyingThing implements DoAThing {
+    public int f(int x, int y) {
+        return x * y;
+    }
+}
 
 public class LambdaExample2 {
 
