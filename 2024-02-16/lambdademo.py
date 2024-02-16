@@ -10,4 +10,4 @@ for value in items:
 #print(new_items)
 
 items = [9, 2, 1, 3, 5]
-print(map(lambda x: x+1, items))
+print(list(map(lambda x: x+1, items)))
