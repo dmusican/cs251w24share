@@ -1,6 +1,7 @@
 x = 3
 
 def fun1():
-    print(x)
+    print("fun1", x)
 
 fun1()
+print("Done", x)
