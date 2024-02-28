@@ -6,4 +6,5 @@
 # print(len(x))
 
 x:int = 3
+x = "hello"
 print(len(x))
