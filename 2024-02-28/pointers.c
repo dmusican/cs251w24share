@@ -16,7 +16,7 @@ int doit(int (*potato)(int,int), int x, int y) {
 
 struct Thing {
     f;
-}
+} Thing;
 
 int main() {
     printf("%i\n", doit(add, 3, 5));
