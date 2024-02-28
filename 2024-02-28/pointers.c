@@ -21,4 +21,10 @@ struct Thing {
 int main() {
     printf("%i\n", doit(add, 3, 5));
     printf("%i\n", doit(multiply, 3, 5));
+
+    Thing *t = malloc(sizeof(Thing));
+    t->f = add;
+    printf("%i\n", t->f(3,5));
+
+
 }
