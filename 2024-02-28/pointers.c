@@ -13,5 +13,6 @@ int doit(   f,   int x, int y) {
 }
 
 int main() {
-    printf("Hi\n");
+    printf("%i\n", doit(add, 3, 5));
+    printf("%i\n", doit(multiply, 3, 5));
 }
