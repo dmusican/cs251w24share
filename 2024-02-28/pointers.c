@@ -8,8 +8,8 @@ int multiply(int x, int y) {
     return x * y;
 }
 
-int doit( f(int,int),   int x, int y) {
-    return f(x,y);
+int doit( potato(int,int),   int x, int y) {
+    return potato(x,y);
 }
 
 int main() {
