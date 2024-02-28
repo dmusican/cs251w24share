@@ -15,7 +15,7 @@ int doit(int (*potato)(int,int), int x, int y) {
 }
 
 struct Thing {
-    f;
+    int (*f)(int,int);
 } Thing;
 
 int main() {
