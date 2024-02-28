@@ -10,7 +10,8 @@ int multiply(int x, int y) {
 
 // potato is a pointer. It is a function pointer
 int doit(int (*potato)(int,int), int x, int y) {
-    return potato(x,y);
+    /* return potato(x,y); */
+    return (*potato)(x,y);
 }
 
 int main() {
