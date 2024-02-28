@@ -14,6 +14,10 @@ int doit(int (*potato)(int,int), int x, int y) {
     return (*potato)(x,y);
 }
 
+struct Thing {
+    f;
+}
+
 int main() {
     printf("%i\n", doit(add, 3, 5));
     printf("%i\n", doit(multiply, 3, 5));
