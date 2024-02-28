@@ -1,6 +1,10 @@
 public class Len2 {
     public static void main(String[] args) {
-        int x = 3;
+        if (Math.random() > 0.5) {
+            int x = 3;
+        } else {
+            String x = "hello";
+        }
         System.out.println(x.length());
     }
 }
