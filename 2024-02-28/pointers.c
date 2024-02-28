@@ -15,7 +15,7 @@ int doit(int (*potato)(int,int), int x, int y) {
     return (*potato)(x,y);
 }
 
-struct Thing {
+typedef struct Thing {
     int (*f)(int,int);
 } Thing;
 
