@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void foo(int *x) {
-   x = 7;
+   *x = 7;
 }
 
 int main() {
