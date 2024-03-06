@@ -2,10 +2,7 @@
 #include <stdlib.h>
 
 void foo(int *x) {
-   //x = 12
    *x = 6;
-   //x = malloc(sizeof(int));
-   //*x = 7;
 }
 
 int main() {
