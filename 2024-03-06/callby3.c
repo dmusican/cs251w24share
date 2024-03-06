@@ -7,7 +7,7 @@ void foo(int *x) {
 
 int main() {
    int *a = malloc(sizeof(int));
-   *a = 5;;
+   *a = 5;
    printf("%i\n",*a);
    foo(a);
    printf("%i\n",*a);
