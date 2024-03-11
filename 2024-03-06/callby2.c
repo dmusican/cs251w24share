@@ -3,6 +3,7 @@
 
 void foo(int *x) {
    *x = 6;
+   x = NULL;
 }
 
 int main() {
